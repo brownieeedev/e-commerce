@@ -1,0 +1,51 @@
+extends base
+
+block content
+    script(src='./js/cart.js',type='module')
+    body
+        div.small-container.cart-page
+        -var sumprice = sum
+            table
+                tr
+                    th Termék
+                    th Méret
+                    th DB 
+                    th Részösszeg
+                each termek in termekek
+                    tr
+                        div.cartItems
+                            td
+                                div.cart-info
+                                    img(src=termek.kepek[0], alt='')
+                                    div
+                                        p.termeknev #{termek.nev}
+                                        small Ár: #{termek.ar}
+                                        br
+                                        br
+                                        a.btnTorles(data-id =`${termek._id}`,href='') Törlés
+                            td
+                                select.select(required)
+                                    option(value="meret") Méret
+                                    option(value="XS" selected=termek.meret === 'XS') XS
+                                    option(value="S" selected=termek.meret === 'S') S
+                                    option(value="M" selected=termek.meret === 'M') M
+                                    option(value="L" selected=termek.meret === 'L') L
+                                    option(value="XL" selected=termek.meret === 'XL') XL
+                                    option(value="XXL" selected=termek.meret === 'XXL') XXL       
+                            td
+                                input.amount(type="number",min=1, value=`${termek.darab}`,data-ar =`${termek.ar}`, step=1)
+                            td.reszosszeg(class="reszosszeg") #{termek.reszosszeg} Ft                 
+            div.totalprice
+                div.checkout                   
+                    button.btn.btn--green.btn--checkout(data-sum=`${sumprice}`) Véglegesítés
+                table
+                    tr
+                        td Összeg:
+                        td#sum #{reszosszeg} Ft
+                    tr
+                        td Áfa:
+                        td#afa #{afa} Ft
+                    tr
+                        td Összesen:
+                        td#reszosszeg-osszesen #{sum} Ft
+                

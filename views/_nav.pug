@@ -1,0 +1,49 @@
+section.banner
+    script(src='/js/cartcount.js', type='module')
+    body
+        nav.nav-head 
+            div.div-logo
+                a(href="/")
+                    h1 Marleys
+            div.login        
+                if user
+                    if role=='admin'
+                        li
+                            if user.nev
+                                p #{user.nev}
+                            else
+                                p #{role}
+                    li
+                        a.nav__el(href='/rendelesek')
+                            img(src='/icons/Plus_24px.png')
+                    li
+                        a.nav__el#carticon(href='/cart')
+                            img(src='/icons/shopping_cart_30px.png')
+                            span#cart-count 0
+                        
+                    li
+                        a.nav__el(href='/profilom')
+                            img(src='/icons/test_account_30px.png')
+                    li
+                        a.nav__el.nav__el--cta.nav__el--logout#logout
+                            img(src="/icons/Logout_24px.png", alt="")                           
+                else
+                    li
+                        a.nav__el#carticon(href='/cart')
+                            img(src='/icons/shopping_cart_30px.png')
+                            span#cart-count 1
+                    li 
+                        a.nav__el.nav__el--cta(href="/login") Bejelentkezés                    
+        nav.nav-below          
+            div.nav-links
+                ul
+                    li
+                        a(href="/") Kezdőlap
+                    li
+                        a(href="/termekek") Termékek
+                    li
+                        a(href="") Kapcsolat                                 
+        if currentPage=='index'
+            div.mainPageDiv              
+                a(href="/termekek") Ruházat 
+                     

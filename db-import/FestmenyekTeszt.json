@@ -1,0 +1,318 @@
+[{
+  "_id": {
+    "$oid": "6429db343242d1879ee4c774"
+  },
+  "felhasznaloId": {
+    "$oid": "641031f972bfdb2f4f7ac1c4"
+  },
+  "cim": "Dancing",
+  "festo": "BSZ",
+  "tipus": "Akvarell",
+  "kepek": [
+    "6429db343242d1879ee4c774-1680464692090-1.jpg"
+  ],
+  "meret": "500x500",
+  "ar": 45000,
+  "feltoltesDatum": {
+    "$date": "2023-04-02T19:32:44.204Z"
+  },
+  "jovahagyott": true,
+  "slug": "dancing",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6429db4b3242d1879ee4c77e"
+  },
+  "felhasznaloId": {
+    "$oid": "641031f972bfdb2f4f7ac1c4"
+  },
+  "cim": "Shades",
+  "festo": "BSZ",
+  "tipus": "Akvarell",
+  "kepek": [
+    "6429db4b3242d1879ee4c77e-1680464715903-1.jpg"
+  ],
+  "meret": "500x500",
+  "ar": 56000,
+  "feltoltesDatum": {
+    "$date": "2023-04-02T19:32:44.204Z"
+  },
+  "jovahagyott": true,
+  "slug": "shades",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6429db6e3242d1879ee4c788"
+  },
+  "felhasznaloId": {
+    "$oid": "641031f972bfdb2f4f7ac1c4"
+  },
+  "cim": "Laugh",
+  "festo": "BSZ",
+  "tipus": "Akvarell",
+  "kepek": [
+    "6429db6e3242d1879ee4c788-1680464750124-1.jpg"
+  ],
+  "meret": "500x500",
+  "ar": 35000,
+  "feltoltesDatum": {
+    "$date": "2023-04-02T19:32:44.204Z"
+  },
+  "jovahagyott": true,
+  "slug": "laugh",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6429db7c3242d1879ee4c792"
+  },
+  "felhasznaloId": {
+    "$oid": "641031f972bfdb2f4f7ac1c4"
+  },
+  "cim": "Abstract",
+  "festo": "BSZ",
+  "tipus": "Akvarell",
+  "kepek": [
+    "6429db7c3242d1879ee4c792-1680464764807-1.jpg"
+  ],
+  "meret": "500x500",
+  "ar": 45000,
+  "feltoltesDatum": {
+    "$date": "2023-04-02T19:32:44.204Z"
+  },
+  "jovahagyott": true,
+  "slug": "abstract",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6429db8a3242d1879ee4c79c"
+  },
+  "felhasznaloId": {
+    "$oid": "641031f972bfdb2f4f7ac1c4"
+  },
+  "cim": "Rainy Day",
+  "festo": "BSZ",
+  "tipus": "Akvarell",
+  "kepek": [
+    "6429db8a3242d1879ee4c79c-1680464778977-1.jpg"
+  ],
+  "meret": "500x500",
+  "ar": 42000,
+  "feltoltesDatum": {
+    "$date": "2023-04-02T19:32:44.204Z"
+  },
+  "jovahagyott": true,
+  "slug": "rainy-day",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6429dc7d2335bab643bf00f9"
+  },
+  "felhasznaloId": {
+    "$oid": "641031f972bfdb2f4f7ac1c4"
+  },
+  "cim": "Koi",
+  "festo": "BSZ",
+  "tipus": "Akvarell",
+  "kepek": [
+    "6429dc7d2335bab643bf00f9-1680465021643-1.jpg"
+  ],
+  "meret": "500x500",
+  "ar": 32000,
+  "feltoltesDatum": {
+    "$date": "2023-04-02T19:49:49.201Z"
+  },
+  "jovahagyott": true,
+  "slug": "koi",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642adbdedc11535057209000"
+  },
+  "felhasznaloId": {
+    "$oid": "641031f972bfdb2f4f7ac1c4"
+  },
+  "cim": "Glaze",
+  "festo": "BSZ",
+  "tipus": "Olaj",
+  "kepek": [
+    "642adbdedc11535057209000-1680530398822-1.jpg",
+    "642adbdedc11535057209000-1680530398822-2.jpg",
+    "642adbdedc11535057209000-1680530398823-3.jpg"
+  ],
+  "meret": "500x500",
+  "ar": 56000,
+  "feltoltesDatum": {
+    "$date": "2023-04-03T13:54:34.445Z"
+  },
+  "jovahagyott": true,
+  "slug": "glaze",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643523300c69801bddf81503"
+  },
+  "felhasznaloId": {
+    "$oid": "642f0a7f9915b600d64c942b"
+  },
+  "cim": "Festmeny2",
+  "festo": "Da Vinci",
+  "tipus": "Freskó",
+  "kepek": [
+    "643523300c69801bddf81503-1681204016890-1.jpg"
+  ],
+  "meret": "500x500",
+  "ar": 70000,
+  "feltoltesDatum": {
+    "$date": "2023-04-10T17:46:09.186Z"
+  },
+  "jovahagyott": true,
+  "slug": "festmeny2",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64398c13cedd771249eae92b"
+  },
+  "felhasznaloId": {
+    "$oid": "642f0a7f9915b600d64c942b"
+  },
+  "cim": "Colorful",
+  "festo": "Nagy Gyula",
+  "tipus": "Olaj",
+  "kepek": [
+    "64398c13cedd771249eae92b-1681493011983-1.jpg"
+  ],
+  "meret": "500x500",
+  "ar": 123000,
+  "feltoltesDatum": {
+    "$date": "2023-04-14T17:14:52.798Z"
+  },
+  "jovahagyott": true,
+  "slug": "colorful",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64398f03aa781a054ff28b4f"
+  },
+  "felhasznaloId": {
+    "$oid": "642f0a7f9915b600d64c942b"
+  },
+  "cim": "Random",
+  "festo": "Nagy Szilvia",
+  "tipus": "Akvarell",
+  "kepek": [
+    "64398f03aa781a054ff28b4f-1681493763034-1.jpg"
+  ],
+  "meret": "500x500",
+  "ar": 25000,
+  "feltoltesDatum": {
+    "$date": "2023-04-14T17:34:31.489Z"
+  },
+  "jovahagyott": true,
+  "slug": "random",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643abe206317e7f81259f268"
+  },
+  "felhasznaloId": {
+    "$oid": "642f0a7f9915b600d64c942b"
+  },
+  "cim": "Festmenye23",
+  "festo": "Szilvi",
+  "tipus": "Akvarell",
+  "kepek": [
+    "643abe206317e7f81259f268-1681571360029-1.jpg"
+  ],
+  "meret": "500x500",
+  "ar": 56000,
+  "feltoltesDatum": {
+    "$date": "2023-04-15T14:56:33.384Z"
+  },
+  "jovahagyott": true,
+  "slug": "festmenye23",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643c323ada9dfbb50ae7619f"
+  },
+  "felhasznaloId": {
+    "$oid": "64101a22fa4e545163a8a6a2"
+  },
+  "cim": "Sky",
+  "festo": "Nagy Ferenc",
+  "tipus": "Olaj",
+  "kepek": [
+    "643c323ada9dfbb50ae7619f-1681666618398-1.jpg"
+  ],
+  "meret": "500x500",
+  "ar": 55000,
+  "feltoltesDatum": {
+    "$date": "2023-04-16T17:36:51.177Z"
+  },
+  "jovahagyott": true,
+  "slug": "sky",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643e5b51445cdaf994ecbda0"
+  },
+  "felhasznaloId": {
+    "$oid": "642f0a7f9915b600d64c942b"
+  },
+  "cim": "NagyJanosFestmenye",
+  "festo": "Nagy Janos",
+  "tipus": "Olaj",
+  "kepek": [
+    "643e5b51445cdaf994ecbda0-1681808209065-1.jpg"
+  ],
+  "meret": "500x500",
+  "ar": 67000,
+  "feltoltesDatum": {
+    "$date": "2023-04-18T08:55:57.097Z"
+  },
+  "jovahagyott": false,
+  "slug": "nagyjanosfestmenye",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643e5cbb445cdaf994ecbdc7"
+  },
+  "felhasznaloId": {
+    "$oid": "641ee74475b16dafb613d65d"
+  },
+  "cim": "Eye",
+  "festo": "Nagy Janos",
+  "tipus": "Olaj",
+  "kepek": [
+    "643e5cbb445cdaf994ecbdc7-1681808571827-1.jpg"
+  ],
+  "meret": "500x500",
+  "ar": 56000,
+  "feltoltesDatum": {
+    "$date": "2023-04-18T08:55:57.097Z"
+  },
+  "jovahagyott": true,
+  "slug": "eye",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643e6953445cdaf994ecbde2"
+  },
+  "felhasznaloId": {
+    "$oid": "641ee74475b16dafb613d65d"
+  },
+  "cim": "UJFESTMENYNagyjanostol",
+  "festo": "Nagy Janos",
+  "tipus": "Olaj",
+  "kepek": [
+    "643e6953445cdaf994ecbde2-1681811795254-1.jpg"
+  ],
+  "meret": "500x500",
+  "ar": 34000,
+  "feltoltesDatum": {
+    "$date": "2023-04-18T08:55:57.097Z"
+  },
+  "jovahagyott": true,
+  "slug": "ujfestmenynagyjanostol",
+  "__v": 0
+}]

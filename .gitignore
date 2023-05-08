@@ -1,0 +1,5 @@
+node_modules/
+simplepay/
+*.env
+db-import/
+marleys-7e022-firebase-adminsdk-talxi-edd758db1c.json

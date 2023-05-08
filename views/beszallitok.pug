@@ -1,0 +1,35 @@
+extends base
+
+block content
+    //- script(src='/js/beszallitok.js',type="module")
+    main.main
+        .user-view
+            nav.user-view__menu
+                include _sidenav
+            .user-view__content
+                .user-view__form-container2
+                    h2.heading-secondary.ma-bt-md Beszállítók 
+                    .searchbar
+                        .searchbar-links
+                            a(href="#") Új beszállító +
+                            a(href="#") Beszállító módosítása
+                        .searchbar-searchbar    
+                            input#searchbar(type='text', placeholder='Keresés...')
+                            button.btnSearch
+                                img(src="/icons/search_black_24.png", alt="")                
+                    .recent-order
+                        table
+                            thead
+                                tr
+                                    th ID
+                                    th Név
+                                    th Email
+                                    th Telszam
+                            tbody
+                            each b in beszallitok
+                                tr
+                                    td= b._id
+                                    td= b.nev
+                                    td= b.email
+                                    td= b.telszam
+                                    

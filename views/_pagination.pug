@@ -1,0 +1,14 @@
+body
+    script(src='/js/pagination.js',type="module")  
+    .containerPagination
+        .pagination
+            button.btn1 Előző
+            ul
+                each page in pages
+                    li(data-value=`${page}`) #{page}
+            button.btn2 Következő
+    .searchbar    
+        input#searchbar(type='text', placeholder='Keresés...')
+        button.btnSearch
+            img(src="img/icons/search_24px.png", alt="")
+            

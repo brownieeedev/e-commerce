@@ -1,0 +1,44 @@
+extends base
+
+block content
+    script(src='/js/ujTermek.js',type="module")
+    main.main
+        .user-view
+            nav.user-view__menu
+                include _sidenav
+            .user-view__content
+                .user-view__form-container
+                    h2.heading-secondary.ma-bt-md Új termék felvitele
+                    //- form.form.form-user-data(action='/submit-user-data' method='POST') submitting FORM without API
+                    form.form.form-user-data(method='GET' enctype='multipart/form-data')
+                        .form__group
+                            label.form__label(for='name') Terméknév
+                            input#nev.form__input.form-input-name(type='text', placeholder='add meg a terméknevet',  required,name ='nev')
+                        .form__group
+                            label.form__label(for='meret') Méret
+                            input#meret.form__input(type='text', placeholder='XS, S, M, L, XL, XXL',required,name='meret')
+                        .form__group
+                            label.form__label(for='szin') Szín
+                            input#szin.form__input(type='text', placeholder='Kék',required,name='szin')
+                        .form__group
+                            label.form__label(for='beszallito') Beszállító
+                            input#beszallito.form__input(type='text', placeholder='Poló Kft, https://polo.kft.com',required,name='beszallito')
+                        .form__group
+                            label.form__label(for='beerkezesiar') Beérkezési ár
+                            input#beerkezesiAr.form__input(type='number', placeholder='5000',required,name='beerkezesiAr', min=0,step=1000)
+                        .form__group
+                            label.form__label(for='ar') Eladási ár
+                            input#ar.form__input(type='number', placeholder='7000',required,name='ar', min=0,step=1000)
+                        .form__group
+                            label.form__label(for='db') Első rendelés darabszáma
+                            input#db.form__input(type='number', placeholder='10',required,name='db', min=0)    
+                        .form__group
+                            label.form__label(for='leiras') Leírás
+                            textarea#leiras.form__input( placeholder='add meg a termékleírást',required,name='meret', rows=10)
+                        .form__group
+                            input#file(accept='image/*', type='file', name='file', multiple)
+                            label(for='')
+                                i.fa-solid.fa-image
+                                | Tölts fel 2-3 jóminőségű képet a termékről
+                        .form__group.right
+                            button.btn.btn--small.btn--green Új termék feltöltése

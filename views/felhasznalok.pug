@@ -1,0 +1,38 @@
+extends base
+
+block content
+    //- script(src='/js/felhasznalok.js',type="module")
+    main.main
+        .user-view
+            nav.user-view__menu
+                include _sidenav
+            .user-view__content
+                .user-view__form-container2
+                    h2.heading-secondary.ma-bt-md Felhasználók 
+                    .searchbar
+                        .searchbar-links
+                            a(href="#") Felhasználó módosítása
+                        .searchbar-searchbar    
+                            input#searchbar(type='text', placeholder='Keresés...')
+                            button.btnSearch
+                                img(src="/icons/search_black_24.png", alt="")               
+                    .recent-order
+                        table
+                            thead
+                                tr
+                                    th ID
+                                    th Név
+                                    th Email
+                                    th Lakcím
+                                    th Telszam
+                                    th Rendelések
+                            tbody
+                            each f in felhasznalok
+                                tr
+                                    td= f._id
+                                    td= f.nev
+                                    td= f.email
+                                    td= f.lakcim
+                                    td= f.telszam
+                                    td= f.rendelesekSzama
+                                    

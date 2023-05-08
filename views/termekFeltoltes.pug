@@ -1,0 +1,27 @@
+extends base
+
+block content
+    script(src='/js/termekUpdate.js',type="module")
+    main.main
+        .user-view
+            nav.user-view__menu
+                include _sidenav
+            .user-view__content
+                .user-view__form-container
+                    h2.heading-secondary.ma-bt-md Termék feltöltése
+                    //- form.form.form-user-data(action='/submit-user-data' method='POST') submitting FORM without API
+                    form.form.form-user-data(method='GET' enctype='multipart/form-data')
+                        .form__group
+                            label.form__label(for='name') Terméknév
+                            input#nev.form__input.form-input-name(type='text', placeholder='add meg a terméknevet',  required,name ='nev')
+                        .form__group
+                            label.form__label(for='meret') Méret
+                            input#meret.form__input(type='text', placeholder='XS, S, M, L, XL, XXL',required,name='meret')
+                        .form__group
+                            label.form__label(for='szin') Szín
+                            input#szin.form__input(type='text', placeholder='Kék',required,name='szin')
+                        .form__group
+                            label.form__label(for='db') Beérkezik a raktárra (db)
+                            input#db.form__input(type='number', placeholder='1',required,name='db', min=0)    
+                        .form__group.right
+                            button.btn.btn--small.btn--green Új termék feltöltése

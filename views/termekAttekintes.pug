@@ -1,0 +1,41 @@
+extends base
+
+block content
+    //- script(src='/js/felhasznalok.js',type="module")
+    main.main
+        .user-view
+            nav.user-view__menu
+                include _sidenav
+            .user-view__content
+                .user-view__form-container2
+                    h2.heading-secondary.ma-bt-md Termékek                   
+                    .searchbar
+                        .searchbar-links
+                            a(href="/add") Új termék +
+                            a(href="/termekFeltoltes") Termék feltöltése
+                        .searchbar-searchbar    
+                            input#searchbar(type='text', placeholder='Keresés...')
+                            button.btnSearch
+                                img(src="/icons/search_black_24.png", alt="")                
+                    .recent-order
+                        table
+                            thead
+                                tr
+                                    th ID
+                                    th Név
+                                    th Méret
+                                    th Szín
+                                    th Raktáron
+                                    th Beszállító
+                                    th Ár
+                            tbody
+                            each t in termekek
+                                tr
+                                    td= t._id
+                                    td= t.nev
+                                    td= t.meret
+                                    td= t.szin 
+                                    td= t.raktaron
+                                    td= t.beszallito
+                                    td= t.ar
+                                    

@@ -1,0 +1,278 @@
+[{
+  "_id": {
+    "$oid": "641019d8fb28286269e222cc"
+  },
+  "nev": "SAJAT NEV2",
+  "email": "ujemail2@gmail.com",
+  "lakcim": "Lakcim utca 10",
+  "telszam": "+36204055081",
+  "festmenyekSzama": 6,
+  "regisztracioDatuma": {
+    "$date": "2023-03-14T06:53:08.118Z"
+  },
+  "jelszo": "$2a$12$xxbyBFlOpFukerV6Hjgtv.Cdb5SXnOUCQcjlrxnrugDHt6XIGqlwm",
+  "jelszoMegvaltoztatva": {
+    "$date": "2023-03-15T09:34:23.448Z"
+  },
+  "role": "user",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64101a22fa4e545163a8a6a2"
+  },
+  "nev": "Nagy Ferenc",
+  "email": "sajat@gmail.com",
+  "lakcim": "Lakcim utca 10",
+  "telszam": "+36204055081",
+  "festmenyekSzama": 1,
+  "regisztracioDatuma": {
+    "$date": "2023-03-14T06:54:15.362Z"
+  },
+  "jelszo": "$2a$12$IawcsBrAIDLoTEpxlwKmGO2aumXQR8vjZ1HiHADsMLW0i3RQKCZbe",
+  "jelszoMegvaltoztatva": {
+    "$date": "2023-03-23T11:03:12.472Z"
+  },
+  "role": "admin",
+  "__v": 0,
+  "jelszoVisszaallitasLejar": {
+    "$date": "2023-03-14T15:56:01.164Z"
+  },
+  "jelszoVisszaallitasToken": "4ece80a7fd78f2d1d891b546d93b06ce189f6584cd0d8eb22537d08a5c9aff84"
+},{
+  "_id": {
+    "$oid": "641031f972bfdb2f4f7ac1c4"
+  },
+  "nev": "Nagy Janos",
+  "email": "ujemail3@gmail.com",
+  "lakcim": "Lakcim utca 10",
+  "telszam": "+36204055081",
+  "festmenyekSzama": 7,
+  "regisztracioDatuma": {
+    "$date": "2023-03-14T08:35:44.621Z"
+  },
+  "jelszo": "$2a$12$h/ixCirB74uf2Kh8coMF6uDmdQjnE5O9nXDCUdo29YFKES/t0FhGe",
+  "jelszoMegvaltoztatva": {
+    "$date": "2023-03-23T11:15:27.460Z"
+  },
+  "role": "admin",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6410890e8d2eab33dec08b80"
+  },
+  "nev": "Uj felhasznalo5",
+  "email": "ujemail5@gmail.com",
+  "lakcim": "Lakcim utca 10",
+  "telszam": "+36204055081",
+  "festmenyekSzama": 2,
+  "regisztracioDatuma": {
+    "$date": "2023-03-14T14:47:26.153Z"
+  },
+  "jelszo": "$2a$12$V34eSs8RrK/hSYBEx4TV..bD8gvQTbUICiEU8un34WwP26DPuTNlC",
+  "jelszoMegvaltoztatva": {
+    "$date": "2022-04-30T00:00:00.000Z"
+  },
+  "role": "admin",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64108b538cd87048663c5a8a"
+  },
+  "nev": "Uj felhasznalo4",
+  "email": "ujemail4@gmail.com",
+  "lakcim": "Lakcim utca 10",
+  "telszam": "+36204055081",
+  "festmenyekSzama": 2,
+  "regisztracioDatuma": {
+    "$date": "2023-03-14T14:57:22.863Z"
+  },
+  "jelszo": "$2a$12$R5vu7TjiEiV8gsrOnCB6QewGhjvNgcFTys0hAk1Uheush6PuZj.hm",
+  "jelszoMegvaltoztatva": {
+    "$date": "2022-04-30T00:00:00.000Z"
+  },
+  "role": "user",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6410922114b4e158424a0a85"
+  },
+  "nev": "Uj felhasznalo8",
+  "email": "ujemail8@gmail.com",
+  "lakcim": "Lakcim utca 10",
+  "telszam": "+36204055081",
+  "festmenyekSzama": 2,
+  "regisztracioDatuma": {
+    "$date": "2023-03-14T15:26:02.669Z"
+  },
+  "jelszo": "$2a$12$e2ZEIoQBzJhPPI1CAiuxWeLWafSATTHQOt663tbnvVRQRM.Hi31sq",
+  "jelszoMegvaltoztatva": {
+    "$date": "2022-04-30T00:00:00.000Z"
+  },
+  "role": "user",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64119fcf331645d0e963c2f2"
+  },
+  "nev": "Uj felhasznalo9",
+  "email": "ujemail9@gmail.com",
+  "lakcim": "Lakcim utca 10",
+  "telszam": "+36204055081",
+  "festmenyekSzama": 2,
+  "regisztracioDatuma": {
+    "$date": "2023-03-15T10:36:42.103Z"
+  },
+  "jelszo": "$2a$12$90FOlzdaIm4KCwoWnZ/QGOdOKpRhQjitd0a.KODeumy1eXWoqvdFW",
+  "jelszoMegvaltoztatva": {
+    "$date": "2022-04-30T00:00:00.000Z"
+  },
+  "role": "user",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6411db30a7af2c0e87296c26"
+  },
+  "nev": "Uj felhasznalo12",
+  "email": "ujemail12@gmail.com",
+  "lakcim": "Lakcim utca 10",
+  "telszam": "+36204055081",
+  "festmenyekSzama": 2,
+  "regisztracioDatuma": {
+    "$date": "2023-03-15T14:49:44.355Z"
+  },
+  "jelszo": "$2a$12$oYX782v2vnXL3esGX9B4l.mG8.O7Mit/NR6wL6iM28Nyx1ZYb5SpS",
+  "jelszoMegvaltoztatva": {
+    "$date": "2022-04-30T00:00:00.000Z"
+  },
+  "role": "user",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641c748d87a09602dc5e1f92"
+  },
+  "email": "ujemail@gmail.com",
+  "festmenyekSzama": 0,
+  "regisztracioDatuma": {
+    "$date": "2023-03-23T15:47:08.689Z"
+  },
+  "jelszo": "$2a$12$C59AOA7.3B5LvjXTXjqAh.d0uQPELbTe6S.5J3VJYAt8A3k6oCCHi",
+  "role": "user",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641c789043f6429c4f5854ed"
+  },
+  "email": "newst@gmail.com",
+  "festmenyekSzama": 0,
+  "regisztracioDatuma": {
+    "$date": "2023-03-23T15:47:54.139Z"
+  },
+  "jelszo": "$2a$12$fSgUWOHF67gJ.R6HpiZT7.QCb6iY3mPWTC.ehTP.b7yuNL7zkpn0G",
+  "role": "user",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641c78f28c350a5ecb49d63a"
+  },
+  "email": "newest@gmail.com",
+  "festmenyekSzama": 0,
+  "regisztracioDatuma": {
+    "$date": "2023-03-23T16:05:02.179Z"
+  },
+  "jelszo": "$2a$12$Zzr5kISsayp8krxKIspzseDb.Vx7obJ2EFhjJ69oUOfCBcHGF6lGW",
+  "role": "user",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641ec9c8522ed2f4a073131d"
+  },
+  "email": "birosziszu@gmail.com",
+  "festmenyekSzama": 0,
+  "regisztracioDatuma": {
+    "$date": "2023-03-25T10:14:37.151Z"
+  },
+  "jelszo": "$2a$12$WBEDjqadb7LGpfOD9qvVk.Y9XFMsyYuCrA3S85gUQOL85Q4/u8dpO",
+  "role": "user",
+  "__v": 0,
+  "nev": "Sziszuuu Birooo"
+},{
+  "_id": {
+    "$oid": "641edd6275b16dafb613d648"
+  },
+  "email": "feri@gmail.com",
+  "festmenyekSzama": 0,
+  "regisztracioDatuma": {
+    "$date": "2023-03-25T11:33:40.858Z"
+  },
+  "jelszo": "$2a$12$YYgfJ4.SY5hQP/PRRDimNefc4nnuVEqYqi87tEMzdFVL2GL4nMrXi",
+  "role": "user",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641ee74475b16dafb613d65d"
+  },
+  "nev": "Nagy Janos",
+  "email": "ujemail1234@gmail.com",
+  "lakcim": "Lakcim utca 10",
+  "telszam": "+36204055081",
+  "festmenyekSzama": 2,
+  "regisztracioDatuma": {
+    "$date": "2023-03-25T11:33:40.858Z"
+  },
+  "jelszo": "$2a$12$EybBRVnGiXWy90uaHLAIQemcKYxkptoM7fBsielYWw9DcQ4FER2yu",
+  "role": "user",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642f0a7f9915b600d64c942b"
+  },
+  "email": "legujabb@gmail.com",
+  "festmenyekSzama": 5,
+  "regisztracioDatuma": {
+    "$date": "2023-04-06T18:07:19.920Z"
+  },
+  "jelszo": "$2a$12$Viblh2LyTa9zx33Cl2.8/O9CaCp3HV2k964v3nPE8g94Igw9D81MS",
+  "role": "user",
+  "__v": 0,
+  "nev": "Nagy Ferenc",
+  "jelszoVisszaallitasLejar": {
+    "$date": "2023-04-08T10:33:42.978Z"
+  },
+  "jelszoVisszaallitasToken": "8dcafe5ebb72ab1b0aa34edf80e74503d6eb66383288e065373337ff1c45541f"
+},{
+  "_id": {
+    "$oid": "6431607e2b46a159938ac998"
+  },
+  "email": "brownie@mailsac.com",
+  "festmenyekSzama": 0,
+  "regisztracioDatuma": {
+    "$date": "2023-04-08T12:39:05.705Z"
+  },
+  "jelszo": "$2a$12$S/KYcWplAzcFV7dnPHEi7Ox3Je5ErJKRuiZsIYfOhY3erB117M6Qa",
+  "role": "user",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643acc756317e7f81259f2f9"
+  },
+  "email": "ujfiok@gmail.com",
+  "festmenyekSzama": 0,
+  "regisztracioDatuma": {
+    "$date": "2023-04-15T14:56:33.366Z"
+  },
+  "jelszo": "$2a$12$gfgVxA8s761p.7L/Xl1wjuwctD3WSOIODBYyYrRowaQRLFBTvdAX2",
+  "role": "user",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643bc439758e9a997fb89f67"
+  },
+  "email": "ujemail123@gmail.com",
+  "festmenyekSzama": 0,
+  "regisztracioDatuma": {
+    "$date": "2023-04-16T09:46:12.201Z"
+  },
+  "jelszo": "$2a$12$3AqDQIQ.zkfhT2PnI19y.eBRLGyM1hOALEtAZ3GXuePHOdOrcKkcS",
+  "role": "user",
+  "__v": 0
+}]

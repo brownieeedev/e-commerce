@@ -1,0 +1,21 @@
+extends base 
+
+block content
+    script(src='./js/termekek.js',type="module") 
+    main.main
+            nav.sidepanel
+                p Szűrések itt            
+            div.card-container                
+                each termek in termekek
+                    .card(data-slug=`${termek.slug}`)
+                        .card__header
+                                .card__picture
+                                    .card__picture-overlay &nbsp; 
+                                    img.card__picture-img(src=termek.imageURL[0] , alt='Termek')
+                                h3.heading-tertirary       
+                        .card__footer
+                            span.card__footer-value=termek.nev
+                            .blackdiv
+                                a(href=`termek/${termek.slug}`) 
+                                    img(src='/icons/checkout_white_32.png')
+                        

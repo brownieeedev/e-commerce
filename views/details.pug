@@ -1,0 +1,25 @@
+extends base
+
+block content
+    script(src='/js/details.js', type='module')
+    body
+        .small-container.single-product
+            .row-details
+                .col-2
+                    img(src=termek.imageURL[0], alt='')
+                .col-2
+                    p Termékek / Pólók
+                    h1= termek.nev
+                    h4= termek.ar +' Ft'
+                    select.select(required)
+                        option(value='meret') Méret
+                        option(value='S') S
+                        option(value='M') M
+                        option(value='L') L
+                        option(value='XL') XL
+                        option(value='XXL') XXL
+                    input#input(type='number', value='1', min='1', ,step='1')
+                    a#kosarba(data-slug=`${termek.slug}`) Kosárba
+                    h3 Termékleírás
+                    .termekleiras
+                        p= termek.leiras

@@ -1,0 +1,67 @@
+extends base
+
+block content
+    script(src='/js/felhasznalok.js',type="module")
+    main.main
+        .user-view
+            nav.user-view__menu
+                include _sidenav
+            .user-view__content
+                .user-view__form-container2
+                    h2.heading-secondary.ma-bt-md Rendelések áttekintése                  
+                    .insights
+                        .sales
+                            .middle
+                                .left
+                                    h3 Teljes elad&aacute;sok
+                                    h1 600 000 Ft
+                            small.text-muted Elm&uacute;lt 7 nap
+                        .sales
+                            .middle
+                                .left
+                                    h3 Teljes kiad&aacute;sok
+                                    h1 350 000 Ft
+                            small.text-muted Elm&uacute;lt 7 nap
+                        .sales
+                            .middle
+                                .left
+                                    h3 Teljes profit
+                                    h1 250 000 Ft
+                            small.text-muted Elm&uacute;lt 7 nap
+
+                    .searchbar
+                        .searchbar-links
+                            a(href="#") Új rendelés +
+                        .searchbar-searchbar    
+                            input#searchbar(type='text', placeholder='Keresés...')
+                            button.btnSearch
+                                img(src="/icons/search_black_24.png", alt="") 
+                    .recent-order
+                        table
+                            thead
+                                tr
+                                    th Term&eacute;kn&eacute;v
+                                    th Term&eacute;k azonos&iacute;t&oacute;
+                                    th DB
+                                    th Felhaszn&aacute;l&oacute; azonos&iacute;t&oacute;
+                                    th Fizetve
+                            tbody
+                                tr
+                                    td Rendel&eacute;s 1
+                                    td 8562
+                                    td 10
+                                    td felh1
+                                    td 35600 Ft
+                                tr
+                                    td Rendel&eacute;s 1
+                                    td 8562
+                                    td 10
+                                    td felh1
+                                    td 35600 Ft
+                                tr
+                                    td Rendel&eacute;s 1
+                                    td 8562
+                                    td 10
+                                    td felh1
+                                    td 35600 Ft
+                                    
